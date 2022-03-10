@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class SortedProducer {
     public static void main(String[] args) throws Exception {
-        DefaultMQProducer producer = new DefaultMQProducer("sort_producer_group");
+        DefaultMQProducer producer = new DefaultMQProducer("study_producer_group");
 
         producer.setNamesrvAddr("127.0.0.1:9876");
 

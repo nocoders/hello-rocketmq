@@ -15,7 +15,7 @@ import org.apache.rocketmq.common.message.Message;
 public class ScheduledMessageProducer {
     public static void main(String[] args) throws Exception {
         // 实例化一个生产者来产生延时消息
-        DefaultMQProducer producer = new DefaultMQProducer("ScheduledProducerGroup");
+        DefaultMQProducer producer = new DefaultMQProducer("study_producer_group");
         // 启动生产者
         producer.start();
         int totalMessagesToSend = 100;

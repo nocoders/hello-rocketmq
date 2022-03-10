@@ -16,7 +16,7 @@ import java.util.List;
 public class BatchProducer {
     public static void main(String[] args) throws Exception {
         // 实例化消息生产者Producer
-        DefaultMQProducer producer = new DefaultMQProducer("batch_message_send_group");
+        DefaultMQProducer producer = new DefaultMQProducer("study_producer_group");
         // 设置NameServer的地址
         producer.setNamesrvAddr("localhost:9876");
         // 启动Producer实例

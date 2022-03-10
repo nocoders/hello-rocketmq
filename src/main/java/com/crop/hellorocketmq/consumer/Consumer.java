@@ -19,7 +19,7 @@ public class Consumer {
     public static void main(String[] args) throws InterruptedException, MQClientException {
 
         // 实例化消费者
-        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("please_rename_unique_group_name");
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("study_consumer_group");
 
         // 设置NameServer的地址
         consumer.setNamesrvAddr("localhost:9876");
